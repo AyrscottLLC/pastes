@@ -1,17 +1,21 @@
 <template>
     <div>
-        <h1>🍝 pastes.ayrscott.com</h1>
-        <nav>
-            <ul>
-                <li>
-                    <NuxtLink to="/">Home</NuxtLink>
-                </li>
-                <li>
-                    <NuxtLink to="/about">About</NuxtLink>
-                </li>
-            </ul>
-        </nav>
-        <slot />
+        <header class="shadow-sm bg-white">
+            <nav class="container mx-auto p-4 flex justify-between">
+                <h1>🍝 pastes.ayrscott.com</h1>
+                <ul>
+                    <li>
+                        <NuxtLink to="/">Home</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/about">About</NuxtLink>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <slot />
+        </div>
     </div>
 </template>
 
