@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/737faabd-648a-47c6-a1c9-21ce7a51de2f/deploy-status)](https://app.netlify.com/sites/whimsical-praline-28265e/deploys)
+
 # pastes.ayrscott.com
 
 A simple paste service built with nuxt.js, netlify and supabase.
