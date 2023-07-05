@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>pastes.ayrscott.com</h1>
+        <h1>🍝 pastes.ayrscott.com</h1>
         <nav>
             <ul>
                 <li>
@@ -22,5 +22,10 @@
 .router-link-active {
     font-weight: bold;
     color: green;
+}
+
+h1 {
+    font-size: 40px;
+
 }
 </style>
