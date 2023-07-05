@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100;
+}
+
+@layer components {
+    .btn {
+        @apply px-4 py-2 my-2 rounded-md bg-blue-600 text-white;
+    }
+
+    .btn:hover {
+        @apply bg-green-900;
+    }
+}
