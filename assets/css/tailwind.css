@@ -12,6 +12,6 @@ body {
     }
 
     .btn:hover {
-        @apply bg-green-900;
+        @apply bg-green-600;
     }
 }
