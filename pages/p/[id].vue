@@ -1,16 +1,17 @@
 <template>
     <div>
-        <h1>Viewing paste {{ id }}</h1>
-        <h2>{{ data.data.title }}</h2>
-        <p>{{ data.data.body }}</p>
+        <em>paste {{ id }}</em>
+        <h2 class="py-4 text-4xl font-bold">{{ data.data.title }}</h2>
+        <pre>{{ data.data.body }}</pre>
     </div>
 </template>
 
 <script setup>
+console.log('running script')
 // grab the post id from the url
 const { id } = useRoute().params
-const api_url = 'https://szsaextmvibiosujacix.supabase.co/functions/v1/get_paste_by_uuid';
-const { data: data, pending, error, refresh } = await useFetch(api_url, {
+// const api_url = '';
+const { data, pending, error, refresh } = await useFetch(() => 'https://szsaextmvibiosujacix.supabase.co/functions/v1/get_paste_by_uuid', {
     key: id,
     method: 'POST',
     body: {
