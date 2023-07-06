@@ -13,6 +13,9 @@
                     <li>
                         <NuxtLink to="/about">About</NuxtLink>
                     </li>
+                    <li>
+                        <NuxtLink to="/p/721adcd8-64b7-4b0b-89e0-4ba563d57bb4">View Paste</NuxtLink>
+                    </li>
                 </ul>
             </nav>
         </header>
