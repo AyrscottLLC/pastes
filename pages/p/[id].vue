@@ -7,17 +7,18 @@
 </template>
 
 <script setup>
-console.log('running script')
+
 // grab the post id from the url
 const { id } = useRoute().params
-// const api_url = '';
-const { data, pending, error, refresh } = await useFetch(() => 'https://szsaextmvibiosujacix.supabase.co/functions/v1/get_paste_by_uuid', {
+
+const { data, pending, error, refresh } = await useFetch('https://szsaextmvibiosujacix.supabase.co/functions/v1/get_paste_by_uuid', {
     key: id,
     method: 'POST',
     body: {
         uuid: id
     }
 })
+
 </script>
 
 <style scoped></style>
