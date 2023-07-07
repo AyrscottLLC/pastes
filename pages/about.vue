@@ -11,8 +11,15 @@
             &amp;
             <a href="https://www.postgresql.org/">PostgreSQL</a>.
         </p>
-        <p class="mt-4">This project's source code is available on a <a class="text-blue-500"
-                href="https://github.com/AyrscottLLC/pastes">GitHub</a>.</p>
+        <p class="my-4">The full source code for this project is available on GitHub:</p>
+        <ul class="list-disc list-inside">
+            <li><a class="text-blue-500 hover:underline" href="https://github.com/AyrscottLLC/pastes">Nuxt 3 Front-End for
+                    Netlify</a>
+            </li>
+            <li><a class="text-blue-500 hover:underline" href="https://github.com/AyrscottLLC/pastes-supabase">Deno Edge
+                    Functions Back-End for Supabase
+                </a></li>
+        </ul>
     </div>
 </template>
 
