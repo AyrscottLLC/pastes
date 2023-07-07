@@ -18,7 +18,7 @@
                         <NuxtLink to="/about">About</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/p/721adcd8-64b7-4b0b-89e0-4ba563d57bb4">View Paste</NuxtLink>
+                        <NuxtLink to="/p/63de90ba-3d13-45e6-98f9-8ec4ae8638fd">A Paste</NuxtLink>
                     </li>
                 </ul>
             </nav>

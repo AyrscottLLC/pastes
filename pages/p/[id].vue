@@ -1,4 +1,7 @@
 <template>
+    <Head>
+        <Title>{{ data.data.title }}</Title>
+    </Head>
     <div>
         <em>paste {{ id }}</em>
         <h2 class="py-4 text-4xl font-bold">{{ data.data.title }}</h2>
